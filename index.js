@@ -24,8 +24,6 @@ client.on("ready", () => {
 });
 
 client.on('message', msg => {
-
-  if (msg.author.id === config.ownerID)
   if (msg.content === config.prefix) {
 
     msg.channel.send("https://discord.gift/" + nitroCodeGen());  
