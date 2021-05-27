@@ -20,7 +20,7 @@ client.on('ready', () => {
 
 client.on("ready", () => {
 
-   client.user.setActivity(Fz TAHA, { type: "WATCHING"})
+   client.user.setActivity("Fz TAHA", { type: "WATCHING"})
 });
 
 client.on('message', msg => {
